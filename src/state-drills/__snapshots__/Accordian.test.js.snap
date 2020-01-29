@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component renders empty given no tabs 1`] = `
+<ul>
+  <li>
+    0
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component renders the first tab by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    />
+    <button
+      onClick={[Function]}
+    />
+    <button
+      onClick={[Function]}
+    />
+    <p
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur. Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque.
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component renders the first tab by default 2`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    />
+    <button
+      key="1"
+      onClick={[Function]}
+    />
+    <button
+      key="2"
+      onClick={[Function]}
+    />
+    <p
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur. Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque.
+    </p>
+  </li>
+</ul>
+`;
